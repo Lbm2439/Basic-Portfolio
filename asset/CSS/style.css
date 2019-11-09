@@ -8,6 +8,9 @@ h1{
 }
 h3{
     text-align: left;
+    color: #4aaaa5;
+   
+
 }
 h5{
     text-align: right;
@@ -44,6 +47,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+    
 }
 .Container{
     width: 960px;
@@ -54,7 +58,28 @@ body {
     width: 200px;
     float: left;
     margin: 20px;
+    position: relative;
 }
 .imageContainer img{
 width: 100%;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .tealBox{
+      position: absolute;
+      background-color: #4aaaa5;
+      color :#ffffff;
+      width: 100%;
+      bottom: 20px;
+      
+    
+  }
+  .teal-caption{
+      color: white;
+      text-align: center;
+     
+     
+  }
