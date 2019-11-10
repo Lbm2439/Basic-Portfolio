@@ -41,24 +41,28 @@
         margin: 0;
         padding: 0;
     }
-    .mainHeader{
+    .mainHeader {
     background-color: #ffffff; 
     border: #cccccc;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-
-    
     }
 
-    .mainContent{
+    .mainContent {
         background-color: #ffffff;
         font-family: Arial, Helvetica, sans-serif;
         border: solid #dddddd;
         width: 960px;
-        margin-left: 150px;
+        margin: 0 auto;
         margin-top: 40px;
         
     }
+    .line-bar {
+        width: 915px;
+        margin: 0 20px;
+        color:#dddddd;
+    }
+     
     .footer{
         background-color: #666666;
         font-family: Arial, Helvetica, sans-serif;
@@ -84,9 +88,13 @@
     }
     .imageContainer img{
     width: 100%;
-    
-
     }
+    
+    .ball {
+    height:200px;
+    background-size: cover;
+    }  
+
     .clearfix::after {
         content: "";
         clear: both;
@@ -125,6 +133,7 @@
         padding-bottom: 100px;
         width: 80%;
         margin-left: 80px;
+        padding-top: 40px;
         
     }
     input, textarea{
